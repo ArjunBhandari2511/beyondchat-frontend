@@ -1,0 +1,73 @@
+h2 , p {
+text-align: center;
+}
+
+#metaDescription {
+    color: #000;
+}
+
+.p-field {
+    margin-bottom: 15px;
+  }
+  
+  .p-inputtext, .p-textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+
+  .p-button {
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 4px;
+  }
+
+  .webpages-status {
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    display: grid; /* Enable grid layout */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive columns */
+    gap: 20px; /* Space between grid items */
+  }
+  
+  .webpage-item {
+    background-color: #ffffff;
+    padding: 15px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow for better visual appearance */
+    display: flex; /* Align content inside the item */
+    flex-direction: column; /* Stack content vertically */
+    justify-content: space-between;
+  }
+  
+  .webpage-item p {
+    margin: 5px 0; /* Add spacing between paragraphs */
+  }
+  
+  .p-button {
+    margin-top: 10px; /* Space above the button */
+    align-self: flex-start; /* Align button to the start */
+  }
+
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  @media (max-width: 768px) {
+    .dashboard-container {
+      padding: 10px;
+    }
+  
+    .p-field {
+      width: 100%;
+    }
+  }
+  

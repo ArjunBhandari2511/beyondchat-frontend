@@ -1,0 +1,31 @@
+.verify-code-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .verify-code-form {
+    margin-top: 20px;
+  }
+
+  .codelabel {
+    font-size: larger;
+  }
+  
+  .error-message {
+    color: red;
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+  
+  .p-field {
+    margin-bottom: 20px;
+  }
+  
+  .p-button {
+    width: 100%;
+    padding: 10px;
+  }
+  

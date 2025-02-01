@@ -1,0 +1,39 @@
+.sample-web-container {
+    position: relative;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  .topbar {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  h2 {
+    color: #fff;
+  }
+
+  a {
+    color: #fff;
+  }
+
+  .content {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .chatbot-widget {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+  }
+  
+  .chatbot-icon {
+    font-size: 2rem;
+    padding: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  

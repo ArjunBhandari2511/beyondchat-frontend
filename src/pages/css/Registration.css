@@ -1,0 +1,87 @@
+/* Registration.css */
+.registration-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.registration-container h2 {
+  text-align: center;
+  color: #106eea;
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+.registration-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.p-field {
+  margin-bottom: 15px;
+}
+
+
+.p-password {
+  display: block;
+  width: 100%; /* Ensures padding/border doesn't affect width */
+}
+
+.p-password input {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.p-password .p-password-toggle-icon {
+  display: none; /* Hides the mask toggle button if it's affecting alignment */
+}
+
+.error-message {
+  color: #e74c3c;
+  font-size: 0.9em;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.p-button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 1.1em;
+}
+
+.p-button-primary {
+  background-color: #106eea;
+  border-color: #106eea;
+}
+
+.p-button-primary:hover {
+  background-color: #0753b2;
+  border-color: #0753b2;
+}
+
+/* Google Sign-In Section */
+.google-signin-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.google-signin-text {
+  font-size: 1em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.p-button-secondary {
+  background-color: #db4437;
+  border-color: #db4437;
+}
+
+.p-button-secondary:hover {
+  background-color: #c1351d;
+  border-color: #c1351d;
+}
