@@ -26,7 +26,7 @@ const VerifyCode = () => {
   
       console.log('Sending verification request:', { email, code });
 
-      const response = await axios.post('http://localhost:5000/api/verify-email', {
+      const response = await axios.post('https://beyondchat-backend.onrender.com/api/verify-email', {
         email,
         code,
       });
